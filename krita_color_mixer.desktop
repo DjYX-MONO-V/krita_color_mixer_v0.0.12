@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=krita_color_mixer
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Color Mixer Studio
+Comment=Color mixing, palette extraction, harmony generation and contrast checks for Krita.
+Comment[ru]=Смешивание цветов, извлечение и создание палитр, проверка контрастности в Krita.
+X-KDE-PluginInfo-Author=Dj YX

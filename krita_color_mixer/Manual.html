@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Color Mixer Studio</title>
+</head>
+<body>
+<h1>Color Mixer Studio</h1>
+<p>A Krita plugin for mixing colors, creating palettes, and checking color contrast.</p>
+
+<h2>Color mixing</h2>
+<p>Set the Start Color and End Color using the color wheel, HEX/RGB input, or screen picker. The HSL value is displayed alongside the input fields. Choose the OKLCH, LAB, or RGB color space, the number of intermediate steps, and the HEX/RGB/HSL label format. The brush button applies a color as Krita's foreground color.</p>
+
+<h2>Palettes</h2>
+<p>Create a palette using the Complementary, Triadic, Analogous, Split-Complementary, or Monochromatic harmony. For images, choose Start Color, End Color, Extract Palette, or Custom Palette (Manual). Load an image from disk or capture a screen area with Snip Screen.</p>
+<p>In Extract Palette mode, set the number of colors, sort by frequency, hue, or brightness, and choose a threshold for merging similar colors. The threshold uses CIE76 Delta E: 0 keeps only exact matches, while higher values merge increasingly similar colors.</p>
+<p>In Custom Palette (Manual) mode, set 2 to 16 slots, select a slot, then click the desired color in the image. Fill all slots before exporting.</p>
+
+<h2>Contrast</h2>
+<p>In Color difference and contrast, choose a text color and a background color. The preview shows the selected pair, CIE76 shows the numerical difference between the colors, and Contrast shows the contrast ratio with an evaluation against WCAG text thresholds. This can help assess readability but is not a substitute for a full accessibility review.</p>
+
+<h2>Export</h2>
+<ul>
+  <li><b>Add Palette as Layer (64x64)</b> adds the palette as a horizontal strip on a new raster layer in the active document. Each color is a 64×64-pixel block with no gaps.</li>
+  <li><b>Save Palette as PNG</b> saves the same color strip as a PNG.</li>
+</ul>
+<p>An open Krita document is required to add a layer.</p>
+
+<hr>
+<p style="text-align: center; color: #71717A; font-size: 85%;">
+  Created by <b>Dj YX</b>.
+  <a href="https://donatello.to/Dj_YX" target="_blank">Support the project (Donate)</a> ☕
+</p>
+
+</body>
+</html>
